@@ -1,58 +1,59 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://brandonhs.com`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Brandon Stevens',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Brandon Stevens | Home`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `brandonhs`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@brandonhstevens`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/brandonhs`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/brandonhstevens/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `Hi, my name is Brandon and I am a high school engineering student. I have over 5 years of experience in programming, electronics, and mechanical design. I spend most of my free time writing code that I am passionate about. I mainly focus on low level programming and hardware level engineering but I have also done game development and computer graphics in the past.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'BrandOS',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Operating system kernel written in C',
+        link: 'https://github.com/brandonhs/BrandOS',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'Astraios',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'Opengl rendering engine written in java',
+        link: 'https://github.com/brandonhs/Astraios-Engine',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Chip8',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'C based Chip8 interpreter written in 2 days',
+        link: 'https://github.com/brandonhs/Chip8',
       },
+      {
+        name: 'MJPEG-Streamer ',
+        description:
+          'MJPEG-over-websocket streaming and recieving library',
+        link: 'https://github.com/brandonhs/MJPEG-Streamer',
+      }
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'DeepWater Exploration',
+        description: 'Programming Lead, Electrical Engineer, September 2021 - Present',
+        link: 'https://exploredeepwater.com/',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Advent Industries',
+        description: 'Programming & Electrical Intern, March 2021 - June 2021',
+        link: 'https://sites.google.com/student.lbschools.net/adventindustries/about-the-company',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -60,16 +61,12 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
-      },
-      {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+          'Javascript, C/C++, rust, react, python, flask, ROS, assembly',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'API design, CAD',
       },
     ],
   },
