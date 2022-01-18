@@ -39,7 +39,7 @@ module.exports = {
       {
         name: 'MJPEG-Streamer ',
         description:
-          'MJPEG-over-websocket streaming and recieving library',
+          'MJPEG-over-websocket streaming and receiving library',
         link: 'https://github.com/brandonhs/MJPEG-Streamer',
       }
     ],
